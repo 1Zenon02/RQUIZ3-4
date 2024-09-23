@@ -1,0 +1,9 @@
+<h1>Profile</h1>
+<p>Name: {{ request.user.profile.first_name }} {{ request.user.profile.last_name }}</p>
+<p>Weight: {{ request.user.profile.weight }}</p>
+<p>Height: {{ request.user.profile.height }}</p>
+<p>Region: {{ request.user.profile.region }}</p>
+<p>Province: {{ request.user.profile.province }}</p>
+<p>Municipality: {{ request.user.profile.municipality }}</p>
+<p>Blood Type: {{ request.user.profile.blood_type }}</p>
+<p>Availability: {{ request.user.profile.availability }}</p>
