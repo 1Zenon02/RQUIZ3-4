@@ -1,0 +1,8 @@
+<h1>Blood Donation Requests</h1>
+<ul>
+    {% for blood_donation_request in blood_donation_requests %}
+        <li>
+            {{ blood_donation_request.user }} - {{ blood_donation_request.request_type }} - {{ blood_donation_request.blood_type }} - {{ blood_donation_request.region }} - {{ blood_donation_request.province }} - {{ blood_donation_request.municipality }}
+        </li>
+    {% endfor %}
+</ul>
